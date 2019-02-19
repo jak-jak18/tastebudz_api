@@ -1,0 +1,41 @@
+indexes:
+- kind: Item
+  properties:
+  - name: res_name
+    direction: asc
+
+- kind: Item
+  properties:
+  - name: res_name
+    direction: asc
+  - name: image_key
+    direction: asc
+  - name: item_name
+    direction: asc
+
+- kind: Item
+  properties:
+  - name: course_name
+    direction: asc
+
+- kind: Item
+  properties:
+  - name: item_name
+    direction: asc
+
+- kind: Restaurant
+  properties:
+  - name: name
+    direction: asc
+
+- kind: Restaurant
+  properties:
+  - name: name
+    direction: asc
+  - name: presentation
+    direction: asc
+
+- kind: Order
+  properties:
+  - name: time
+    direction: asc
